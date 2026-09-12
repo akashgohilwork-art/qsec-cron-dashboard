@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12 20:06 IST",
+  "generated_at": "2026-09-12 21:32 IST",
   "jobs": [
     {
       "job_id": "9e629683c51d",
@@ -11,13 +11,12 @@
       "size_class": "large",
       "category": "stock",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "alert",
         "status_label": "Alert",
         "status_class": "status--alert",
         "summary": "\ud83d\udcca QSEC Stock Runway",
         "key_metrics": {
-          "recent runway": "7d",
           "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
         },
         "tables": [
@@ -95,13 +94,12 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -178,13 +176,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-12 10:30:10 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "warning",
           "status_label": "Warning",
           "status_class": "status--warning",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -261,13 +258,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-11 10:30:38 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -344,13 +340,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-10 10:30:39 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -427,13 +422,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-09 10:30:32 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -510,13 +504,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-08 10:30:37 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -593,13 +586,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-07 10:30:54 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -676,13 +668,12 @@
           "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-06 10:30:30 Mode: noagent script --- \ud83d\udcca QSE\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udcca QSEC Stock Runway",
           "key_metrics": {
-            "recent runway": "7d",
             "Trend": "\u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)_"
           },
           "tables": [
@@ -771,28 +762,20 @@
       "size_class": "large",
       "category": "stock",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "alert",
         "status_label": "Alert",
         "status_class": "status--alert",
         "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
         "key_metrics": {
-          "6CB runway": "0.3d",
-          "70 runway": "4.0d",
-          "35 runway": "0.3d",
-          "0 runway": "17.0d",
-          "32 runway": "10.0d",
-          "3 runway": "8.5d",
-          "CB order": "70u",
-          "CB coverage": "4.0d",
-          "6CB order": "35u",
           "6CB coverage": "0.3d",
-          "7CB order": "0u",
+          "6CB order": "35u",
           "7CB coverage": "17.0d",
-          "SB order": "32u",
-          "SB coverage": "10.0d",
+          "7CB order": "0u",
+          "7SB coverage": "8.5d",
           "7SB order": "3u",
-          "7SB coverage": "8.5d"
+          "CB coverage": "4.0d",
+          "CB order": "70u"
         },
         "tables": [],
         "technical_details": "Run: `12 Sep 2026, 11:00 AM IST`\nStock row: `2026-09-11`  \u00b7  gap `1d`\n\u26a0\ufe0f *FALLBACK* \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n*Verify physically before placing the order.*\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6CB 0.3d\n*Velocity base*\n\u2022 Cycle from `2026-09-10` (2 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `6.6d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *140*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `87u`  \u00b7  within cap\n\u2022 Priority bucket CB+7CB: `70u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *12 Sep*  \u00b7  ETA *14 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 No velocity (order forced 0): `6SB`\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        48   12.0    60    Y\n6CB        1    3.0    26\n7CB       51    3.0     0    Y\nSB        30    3.0     0\n6SB       11    0.0     0\n7SB       17    2.0     1\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         70       4.0d\n6CB        35       0.3d\n7CB         0      17.0d\nSB         32      10.0d\n6SB         0          \u2014\n7SB         3       8.5d\n------------------------\nTOTAL     140\n```\n*CB+7CB:* 70u (50%)  \u00b7  *By:* 12 Sep  \u00b7  *ETA:* 14 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.",
@@ -801,28 +784,20 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6CB runway": "0.3d",
-            "70 runway": "4.0d",
-            "35 runway": "0.3d",
-            "0 runway": "17.0d",
-            "32 runway": "10.0d",
-            "3 runway": "8.5d",
-            "CB order": "70u",
-            "CB coverage": "4.0d",
-            "6CB order": "35u",
             "6CB coverage": "0.3d",
-            "7CB order": "0u",
+            "6CB order": "35u",
             "7CB coverage": "17.0d",
-            "SB order": "32u",
-            "SB coverage": "10.0d",
+            "7CB order": "0u",
+            "7SB coverage": "8.5d",
             "7SB order": "3u",
-            "7SB coverage": "8.5d"
+            "CB coverage": "4.0d",
+            "CB order": "70u"
           },
           "tables": [],
           "technical_details": "Run: `12 Sep 2026, 11:00 AM IST`\nStock row: `2026-09-11`  \u00b7  gap `1d`\n\u26a0\ufe0f *FALLBACK* \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n*Verify physically before placing the order.*\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6CB 0.3d\n*Velocity base*\n\u2022 Cycle from `2026-09-10` (2 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `6.6d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *140*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `87u`  \u00b7  within cap\n\u2022 Priority bucket CB+7CB: `70u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *12 Sep*  \u00b7  ETA *14 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 No velocity (order forced 0): `6SB`\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        48   12.0    60    Y\n6CB        1    3.0    26\n7CB       51    3.0     0    Y\nSB        30    3.0     0\n6SB       11    0.0     0\n7SB       17    2.0     1\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         70       4.0d\n6CB        35       0.3d\n7CB         0      17.0d\nSB         32      10.0d\n6SB         0          \u2014\n7SB         3       8.5d\n------------------------\nTOTAL     140\n```\n*CB+7CB:* 70u (50%)  \u00b7  *By:* 12 Sep  \u00b7  *ETA:* 14 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.",
@@ -830,7 +805,7 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-12 11:00:12 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "warning",
           "status_label": "Warning",
           "status_class": "status--warning",
@@ -842,33 +817,20 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-11 11:00:38 Mode: noagent script --- \u26a0\ufe0f QSEC REORDER\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6SB runway": "0.0d",
-            "6CB runway": "1.0d",
-            "7SB runway": "2.3d",
-            "39 runway": "5.4d",
-            "15 runway": "1.0d",
-            "36 runway": "4.0d",
-            "9 runway": "5.1d",
-            "35 runway": "0.0d",
-            "16 runway": "2.3d",
-            "CB order": "39u",
-            "CB coverage": "5.4d",
-            "6CB order": "15u",
             "6CB coverage": "1.0d",
-            "7CB order": "36u",
-            "7CB coverage": "4.0d",
-            "SB order": "9u",
-            "SB coverage": "5.1d",
-            "6SB order": "35u",
+            "6CB order": "15u",
             "6SB coverage": "0.0d",
-            "7SB order": "16u",
-            "7SB coverage": "2.3d"
+            "6SB order": "35u",
+            "7CB coverage": "4.0d",
+            "7CB order": "36u",
+            "7SB coverage": "2.3d",
+            "7SB order": "16u"
           },
           "tables": [],
           "technical_details": "Run: `10 Sep 2026, 03:07 PM IST`\nStock row: `2026-09-08`  \u00b7  gap `2d`\n\u26a0\ufe0f *STALE* \u2014 stock row is 2 days old. Recommendation unreliable.\n*Verify before ordering.*\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6SB 0.0d, 6CB 1.0d, 7SB 2.3d\n*Velocity base*\n\u2022 Cycle from `2026-08-27` (8 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `4.8d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *150*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `203u`  \u00b7  *exceeds cap by 53u*\n\u2022 Priority bucket CB+7CB: `75u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *10 Sep*  \u00b7  ETA *12 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 After this order, still under full cover target: SB(8u short), CB(2u short), 6SB(19u short), 6CB(9u short), 7SB(13u short), 7CB(2u short)\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        61   11.3    41    Y\n6CB        3    3.0    24\n7CB       30    7.5    38    Y\nSB        22    4.3    17\n6SB        0    6.0    54\n7SB       10    4.3    29\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         39       5.4d\n6CB        15       1.0d\n7CB        36       4.0d\nSB          9       5.1d\n6SB        35       0.0d\n7SB        16       2.3d\n------------------------\nTOTAL     150\n```\n*CB+7CB:* 75u (50%)  \u00b7  *By:* 10 Sep  \u00b7  *ETA:* 12 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.",
@@ -876,33 +838,20 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-10 15:07:00 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6SB runway": "0.0d",
-            "6CB runway": "1.0d",
-            "7SB runway": "2.3d",
-            "39 runway": "5.4d",
-            "15 runway": "1.0d",
-            "36 runway": "4.0d",
-            "9 runway": "5.1d",
-            "35 runway": "0.0d",
-            "16 runway": "2.3d",
-            "CB order": "39u",
-            "CB coverage": "5.4d",
-            "6CB order": "15u",
             "6CB coverage": "1.0d",
-            "7CB order": "36u",
-            "7CB coverage": "4.0d",
-            "SB order": "9u",
-            "SB coverage": "5.1d",
-            "6SB order": "35u",
+            "6CB order": "15u",
             "6SB coverage": "0.0d",
-            "7SB order": "16u",
-            "7SB coverage": "2.3d"
+            "6SB order": "35u",
+            "7CB coverage": "4.0d",
+            "7CB order": "36u",
+            "7SB coverage": "2.3d",
+            "7SB order": "16u"
           },
           "tables": [],
           "technical_details": "Run: `09 Sep 2026, 11:00 AM IST`\nStock row: `2026-09-08`  \u00b7  gap `1d`\n\u26a0\ufe0f *FALLBACK* \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n*Verify physically before placing the order.*\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6SB 0.0d, 6CB 1.0d, 7SB 2.3d\n*Velocity base*\n\u2022 Cycle from `2026-08-27` (8 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `4.8d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *150*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `203u`  \u00b7  *exceeds cap by 53u*\n\u2022 Priority bucket CB+7CB: `75u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *09 Sep*  \u00b7  ETA *11 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 After this order, still under full cover target: SB(8u short), CB(2u short), 6SB(19u short), 6CB(9u short), 7SB(13u short), 7CB(2u short)\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        61   11.3    41    Y\n6CB        3    3.0    24\n7CB       30    7.5    38    Y\nSB        22    4.3    17\n6SB        0    6.0    54\n7SB       10    4.3    29\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         39       5.4d\n6CB        15       1.0d\n7CB        36       4.0d\nSB          9       5.1d\n6SB        35       0.0d\n7SB        16       2.3d\n------------------------\nTOTAL     150\n```\n*CB+7CB:* 75u (50%)  \u00b7  *By:* 09 Sep  \u00b7  *ETA:* 11 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.",
@@ -910,33 +859,20 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-09 11:00:31 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6SB runway": "0.0d",
-            "6CB runway": "1.0d",
-            "7SB runway": "2.3d",
-            "39 runway": "5.4d",
-            "15 runway": "1.0d",
-            "36 runway": "4.0d",
-            "9 runway": "5.1d",
-            "35 runway": "0.0d",
-            "16 runway": "2.3d",
-            "CB order": "39u",
-            "CB coverage": "5.4d",
-            "6CB order": "15u",
             "6CB coverage": "1.0d",
-            "7CB order": "36u",
-            "7CB coverage": "4.0d",
-            "SB order": "9u",
-            "SB coverage": "5.1d",
-            "6SB order": "35u",
+            "6CB order": "15u",
             "6SB coverage": "0.0d",
-            "7SB order": "16u",
-            "7SB coverage": "2.3d"
+            "6SB order": "35u",
+            "7CB coverage": "4.0d",
+            "7CB order": "36u",
+            "7SB coverage": "2.3d",
+            "7SB order": "16u"
           },
           "tables": [],
           "technical_details": "Run: `08 Sep 2026, 07:41 PM IST`\nStock row: `2026-09-08`  \u00b7  fresh\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6SB 0.0d, 6CB 1.0d, 7SB 2.3d\n*Velocity base*\n\u2022 Cycle from `2026-08-27` (8 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `4.8d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *150*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `203u`  \u00b7  *exceeds cap by 53u*\n\u2022 Priority bucket CB+7CB: `75u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *08 Sep*  \u00b7  ETA *10 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 After this order, still under full cover target: SB(8u short), CB(2u short), 6SB(19u short), 6CB(9u short), 7SB(13u short), 7CB(2u short)\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        61   11.3    41    Y\n6CB        3    3.0    24\n7CB       30    7.5    38    Y\nSB        22    4.3    17\n6SB        0    6.0    54\n7SB       10    4.3    29\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         39       5.4d\n6CB        15       1.0d\n7CB        36       4.0d\nSB          9       5.1d\n6SB        35       0.0d\n7SB        16       2.3d\n------------------------\nTOTAL     150\n```\n*CB+7CB:* 75u (50%)  \u00b7  *By:* 08 Sep  \u00b7  *ETA:* 10 Sep",
@@ -944,33 +880,20 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-08 19:41:37 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6SB runway": "0.0d",
-            "6CB runway": "1.3d",
-            "7SB runway": "2.3d",
-            "61 runway": "6.1d",
-            "15 runway": "1.3d",
-            "14 runway": "7.6d",
-            "3 runway": "8.0d",
-            "37 runway": "0.0d",
-            "20 runway": "2.3d",
-            "CB order": "61u",
-            "CB coverage": "6.1d",
-            "6CB order": "15u",
             "6CB coverage": "1.3d",
-            "7CB order": "14u",
-            "7CB coverage": "7.6d",
-            "SB order": "3u",
-            "SB coverage": "8.0d",
-            "6SB order": "37u",
+            "6CB order": "15u",
             "6SB coverage": "0.0d",
-            "7SB order": "20u",
-            "7SB coverage": "2.3d"
+            "6SB order": "37u",
+            "7CB coverage": "7.6d",
+            "7CB order": "14u",
+            "7SB coverage": "2.3d",
+            "7SB order": "20u"
           },
           "tables": [],
           "technical_details": "Run: `07 Sep 2026, 11:00 AM IST`\nStock row: `2026-09-06`  \u00b7  gap `1d`\n\u26a0\ufe0f *FALLBACK* \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n*Verify physically before placing the order.*\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6SB 0.0d, 6CB 1.3d, 7SB 2.3d\n*Velocity base*\n\u2022 Cycle from `2026-08-27` (7 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `6.6d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *150*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `152u`  \u00b7  *exceeds cap by 2u*\n\u2022 Priority bucket CB+7CB: `75u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *07 Sep*  \u00b7  ETA *09 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 After this order, still under full cover target: SB(1u short), 6SB(17u short), 6CB(8u short), 7SB(9u short)\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        71   11.6    34    Y\n6CB        4    3.0    23\n7CB       43    5.7     8    Y\nSB        28    3.5     4\n6SB        0    6.0    54\n7SB       10    4.3    29\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         61       6.1d\n6CB        15       1.3d\n7CB        14       7.6d\nSB          3       8.0d\n6SB        37       0.0d\n7SB        20       2.3d\n------------------------\nTOTAL     150\n```\n*CB+7CB:* 75u (50%)  \u00b7  *By:* 07 Sep  \u00b7  *ETA:* 09 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.",
@@ -978,32 +901,20 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-07 11:00:55 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6SB runway": "0.0d",
-            "6CB runway": "1.7d",
-            "46 runway": "7.0d",
-            "14 runway": "1.7d",
-            "27 runway": "6.5d",
-            "3 runway": "8.0d",
-            "36 runway": "0.0d",
-            "19 runway": "3.1d",
-            "CB order": "46u",
-            "CB coverage": "7.0d",
-            "6CB order": "14u",
             "6CB coverage": "1.7d",
-            "7CB order": "27u",
-            "7CB coverage": "6.5d",
-            "SB order": "3u",
-            "SB coverage": "8.0d",
-            "6SB order": "36u",
+            "6CB order": "14u",
             "6SB coverage": "0.0d",
-            "7SB order": "19u",
-            "7SB coverage": "3.1d"
+            "6SB order": "36u",
+            "7CB coverage": "6.5d",
+            "7CB order": "27u",
+            "7SB coverage": "3.1d",
+            "7SB order": "19u"
           },
           "tables": [],
           "technical_details": "Run: `06 Sep 2026, 11:00 AM IST`\nStock row: `2026-09-05`  \u00b7  gap `1d`\n\u26a0\ufe0f *FALLBACK* \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n*Verify physically before placing the order.*\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6SB 0.0d, 6CB 1.7d\n*Velocity base*\n\u2022 Cycle from `2026-08-27` (6 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `6.8d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *145*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `145u`  \u00b7  within cap\n\u2022 Priority bucket CB+7CB: `73u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *06 Sep*  \u00b7  ETA *08 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 After this order, still under full cover target: SB(1u short), 6SB(18u short), 6CB(8u short), 7SB(8u short)\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        82   11.8    24    Y\n6CB        5    3.0    22\n7CB       37    5.7    14    Y\nSB        28    3.5     4\n6SB        0    6.0    54\n7SB       14    4.5    27\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         46       7.0d\n6CB        14       1.7d\n7CB        27       6.5d\nSB          3       8.0d\n6SB        36       0.0d\n7SB        19       3.1d\n------------------------\nTOTAL     145\n```\n*CB+7CB:* 73u (50%)  \u00b7  *By:* 06 Sep  \u00b7  *ETA:* 08 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.",
@@ -1011,32 +922,20 @@
           "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-06 11:00:31 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udea8 QSEC REORDER ALERT \u2014 Order stock today",
           "key_metrics": {
-            "6SB runway": "0.0d",
-            "6CB runway": "1.7d",
-            "46 runway": "7.0d",
-            "14 runway": "1.7d",
-            "27 runway": "6.5d",
-            "3 runway": "8.0d",
-            "36 runway": "0.0d",
-            "19 runway": "3.1d",
-            "CB order": "46u",
-            "CB coverage": "7.0d",
-            "6CB order": "14u",
             "6CB coverage": "1.7d",
-            "7CB order": "27u",
-            "7CB coverage": "6.5d",
-            "SB order": "3u",
-            "SB coverage": "8.0d",
-            "6SB order": "36u",
+            "6CB order": "14u",
             "6SB coverage": "0.0d",
-            "7SB order": "19u",
-            "7SB coverage": "3.1d"
+            "6SB order": "36u",
+            "7CB coverage": "6.5d",
+            "7CB order": "27u",
+            "7SB coverage": "3.1d",
+            "7SB order": "19u"
           },
           "tables": [],
           "technical_details": "Run: `05 Sep 2026, 11:02 AM IST`\nStock row: `2026-09-05`  \u00b7  fresh\n*Why triggered*\n\u2022 single-SKU runway < 3 days: 6SB 0.0d, 6CB 1.7d\n*Velocity base*\n\u2022 Cycle from `2026-08-27` (6 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: `6.8d`\n*Order sizing*\n\u2022 Hard range: `130\u2013150` units \u2192 recommended *145*\n\u2022 Cover target: `9d` from today (lead `2d` + buffer `7d`)\n\u2022 Cover-gap need sum: `145u`  \u00b7  within cap\n\u2022 Priority bucket CB+7CB: `73u` (50% of order, band 50\u201366%)\n\u2022 Timing: order by *05 Sep*  \u00b7  ETA *07 Sep* (2-day lead)\n*Allocation method*\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: `50%` of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 After this order, still under full cover target: SB(1u short), 6SB(18u short), 6CB(8u short), 7SB(8u short)\n*Per-SKU drivers* (stock \u00b7 vel \u00b7 need \u2192 feeds order)\n```\nSKU    Stock    Vel  Need Pri?\n------------------------------\nCB        82   11.8    24    Y\n6CB        5    3.0    22\n7CB       37    5.7    14    Y\nSB        28    3.5     4\n6SB        0    6.0    54\n7SB       14    4.5    27\n```\n_Coverage = current runway *before* delivery (stock \u00f7 vel)_\n```\nSKU     Order   Coverage\n------------------------\nCB         46       7.0d\n6CB        14       1.7d\n7CB        27       6.5d\nSB          3       8.0d\n6SB        36       0.0d\n7SB        19       3.1d\n------------------------\nTOTAL     145\n```\n*CB+7CB:* 73u (50%)  \u00b7  *By:* 05 Sep  \u00b7  *ETA:* 07 Sep",
@@ -1056,16 +955,16 @@
       "size_class": "medium",
       "category": "returns",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "alert",
         "status_label": "Alert",
         "status_class": "status--alert",
         "summary": "\ud83d\udce6 Return Authorisation Report",
         "key_metrics": {
-          "Yesterday": "3 returns",
-          "7-day avg": "2.3/day",
           "30-day avg": "3.0/day",
-          "Trend": "\u2191 +13.0% vs last week"
+          "7-day avg": "2.3/day",
+          "Trend": "\u2191 +13.0% vs last week",
+          "Yesterday": "3 returns"
         },
         "tables": [],
         "technical_details": "Trend:       \u2191 +13.0% vs last week",
@@ -1074,16 +973,16 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "3 returns",
-            "7-day avg": "2.3/day",
             "30-day avg": "3.0/day",
-            "Trend": "\u2191 +13.0% vs last week"
+            "7-day avg": "2.3/day",
+            "Trend": "\u2191 +13.0% vs last week",
+            "Yesterday": "3 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2191 +13.0% vs last week",
@@ -1091,16 +990,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-12 09:30:44 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "3 returns",
-            "7-day avg": "2.1/day",
             "30-day avg": "2.9/day",
-            "Trend": "\u2191 +9.5% vs last week"
+            "7-day avg": "2.1/day",
+            "Trend": "\u2191 +9.5% vs last week",
+            "Yesterday": "3 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2191 +9.5% vs last week",
@@ -1108,16 +1007,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-11 09:31:14 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "3 returns",
-            "7-day avg": "1.9/day",
             "30-day avg": "2.9/day",
-            "Trend": "\u2193 16.7% vs last week"
+            "7-day avg": "1.9/day",
+            "Trend": "\u2193 16.7% vs last week",
+            "Yesterday": "3 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2193 16.7% vs last week",
@@ -1125,16 +1024,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-10 10:08:15 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "5 returns",
-            "7-day avg": "1.6/day",
             "30-day avg": "2.9/day",
-            "Trend": "\u2193 25.9% vs last week"
+            "7-day avg": "1.6/day",
+            "Trend": "\u2193 25.9% vs last week",
+            "Yesterday": "5 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2193 25.9% vs last week",
@@ -1142,16 +1041,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-09 09:31:05 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "0 returns",
-            "7-day avg": "1.3/day",
             "30-day avg": "2.8/day",
-            "Trend": "\u2193 53.3% vs last week"
+            "7-day avg": "1.3/day",
+            "Trend": "\u2193 53.3% vs last week",
+            "Yesterday": "0 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2193 53.3% vs last week",
@@ -1159,16 +1058,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-08 09:31:11 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "2 returns",
-            "7-day avg": "1.4/day",
             "30-day avg": "2.8/day",
-            "Trend": "\u2193 61.1% vs last week"
+            "7-day avg": "1.4/day",
+            "Trend": "\u2193 61.1% vs last week",
+            "Yesterday": "2 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2193 61.1% vs last week",
@@ -1176,16 +1075,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-07 09:31:28 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "2 returns",
-            "7-day avg": "1.1/day",
             "30-day avg": "2.9/day",
-            "Trend": "\u2193 45.2% vs last week"
+            "7-day avg": "1.1/day",
+            "Trend": "\u2193 45.2% vs last week",
+            "Yesterday": "2 returns"
           },
           "tables": [],
           "technical_details": "Trend:       \u2193 45.2% vs last week",
@@ -1193,16 +1092,16 @@
           "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-06 10:21:05 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
           "summary": "\ud83d\udce6 Return Authorisation Report",
           "key_metrics": {
-            "Yesterday": "1 return",
-            "7-day avg": "1.4/day",
             "30-day avg": "2.9/day",
-            "Trend": "\u2193 23.3% vs last week"
+            "7-day avg": "1.4/day",
+            "Trend": "\u2193 23.3% vs last week",
+            "Yesterday": "1 return"
           },
           "tables": [],
           "technical_details": "Trend:       \u2193 23.3% vs last week",
@@ -1222,11 +1121,11 @@
       "size_class": "medium",
       "category": "returns",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "silent",
         "status_label": "Silent",
         "status_class": "status--silent",
-        "summary": "Status: silent (empty output)",
+        "summary": "No issues detected \u2014 all clear",
         "key_metrics": {},
         "tables": [],
         "technical_details": "",
@@ -1235,11 +1134,11 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1247,11 +1146,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-12 09:35:10 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1259,11 +1158,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-11 09:35:38 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1271,11 +1170,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-10 10:07:40 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1283,11 +1182,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-09 09:35:31 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1295,11 +1194,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-08 09:35:36 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1307,11 +1206,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-07 09:35:54 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1319,11 +1218,11 @@
           "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-06 10:20:30 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1343,11 +1242,11 @@
       "size_class": "small",
       "category": "monitoring",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "ok",
         "status_label": "OK",
         "status_class": "status--ok",
-        "summary": "Status: silent (empty output)",
+        "summary": "No issues detected \u2014 all clear",
         "key_metrics": {},
         "tables": [],
         "technical_details": "",
@@ -1356,11 +1255,11 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1368,11 +1267,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 16:00:18 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1380,11 +1279,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 08:00:07 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1392,11 +1291,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 00:00:58 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1404,11 +1303,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 16:00:45 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1416,11 +1315,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 08:13:35 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1428,11 +1327,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 17:45:50 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1440,11 +1339,11 @@
           "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 10:07:38 Mode: noagent script Status: silent em\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1464,11 +1363,11 @@
       "size_class": "small",
       "category": "monitoring",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "silent",
         "status_label": "Silent",
         "status_class": "status--silent",
-        "summary": "Status: silent (empty output)",
+        "summary": "No issues detected \u2014 all clear",
         "key_metrics": {},
         "tables": [],
         "technical_details": "",
@@ -1477,11 +1376,11 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1489,11 +1388,11 @@
           "output_preview": "Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-12 12:00:14 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1501,11 +1400,11 @@
           "output_preview": "Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-11 12:00:16 Mode: noagent script Status: silent e\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "silent",
           "status_label": "Silent",
           "status_class": "status--silent",
-          "summary": "Status: silent (empty output)",
+          "summary": "No issues detected \u2014 all clear",
           "key_metrics": {},
           "tables": [],
           "technical_details": "",
@@ -1525,7 +1424,7 @@
       "size_class": "small",
       "category": "review",
       "last_run": {
-        "timestamp": "2026-09-12 20:06 IST",
+        "timestamp": "2026-09-12 21:32 IST",
         "status": "ok",
         "status_label": "OK",
         "status_class": "status--ok",
@@ -1538,7 +1437,7 @@
       },
       "history": [
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "ok",
           "status_label": "OK",
           "status_class": "status--ok",
@@ -1550,7 +1449,7 @@
           "output_preview": "Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-09-06 18:02:50 Schedule: 0 18   0  Prompt IMPORTAN\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
@@ -1562,7 +1461,7 @@
           "output_preview": "Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-30 18:02:09 Schedule: 0 18   0  Prompt IMPORTAN\u2026"
         },
         {
-          "timestamp": "2026-09-12 20:06 IST",
+          "timestamp": "2026-09-12 21:32 IST",
           "status": "alert",
           "status_label": "Alert",
           "status_class": "status--alert",
