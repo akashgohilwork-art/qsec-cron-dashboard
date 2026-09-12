@@ -61,10 +61,10 @@
 
   <main class="dashboard-grid" id="grid" role="main">
     
-    <article class="card card--large" data-job-id="9e629683c51d">
+    <article class="card card--large" data-job-id="9e629683c51d" data-category="stock">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">QSEC Stock Runway Prediction</h2>
+          <h2 class="card-title">Stock Runway</h2>
           <span class="status-badge status-badge--alert">Alert</span>
         </div>
         <div class="card-meta">
@@ -74,101 +74,170 @@
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-9e629683c51d">
-          <h3>Cron Job: QSEC Stock Runway Prediction</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">📊 QSEC Stock Runway</div>
+        
 
-<p><strong>Job ID:</strong> 9e629683c51d
-<strong>Run Time:</strong> 2026-09-12 10:30:10
-<strong>Mode:</strong> no_agent (script)</p>
-
-<hr>
-
-<p>📊 <em>QSEC Stock Runway</em>
-<em>Status:</em> 🔴 <em>&lt;3 days:</em> 6CB | 🟡 <em>&lt;1 week:</em> CB</p>
-
-<p><em>Run:</em> 12 Sep 2026, 10:30 AM IST
-<em>Stock row:</em> 2026-09-11
-<em>Velocity base:</em> 2026-09-10 onward (2 rows) — latest major restock +56 across 5 SKUs
-<em>Trend: ↑ accelerating · → stable · ↓ slowing (recent 7d vs earlier cycle)</em>
-<em>Runway ± is 1σ from depletion-day variance (needs ≥3 burn days)</em>
-<em>Prior majors ignored for velocity: 2026-08-15(+114), 2026-08-22(+105), 2026-08-27(+107)</em>
-⚠️ <em>Freshness:</em> latest stock row is 1 day(s) old — today’s form may not be filled yet.
-⚪ <em>No velocity yet:</em> 6SB</p>
-
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-  <th>SKU</th>
-  <th>Stock</th>
-  <th>Vel/day</th>
-  <th>Trend</th>
-  <th>Runway</th>
-  <th>Stockout</th>
-  <th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>SB</td>
-  <td>30</td>
-  <td>3.0</td>
-  <td>·</td>
-  <td>10.0d</td>
-  <td>22 SEP</td>
-  <td>🟢 1–2w</td>
-</tr>
-<tr>
-  <td>CB</td>
-  <td>48</td>
-  <td>12.0</td>
-  <td>·</td>
-  <td>4.0d</td>
-  <td>16 SEP</td>
-  <td>🟡 &lt;1w</td>
-</tr>
-<tr>
-  <td>6SB</td>
-  <td>11</td>
-  <td>0.0</td>
-  <td>·</td>
-  <td>—</td>
-  <td>—</td>
-  <td>⚪ No velocity</td>
-</tr>
-<tr>
-  <td>6CB</td>
-  <td>1</td>
-  <td>3.0</td>
-  <td>·</td>
-  <td>0.3d</td>
-  <td>12 SEP</td>
-  <td>🔴 &lt;3d</td>
-</tr>
-<tr>
-  <td>7SB</td>
-  <td>17</td>
-  <td>2.0</td>
-  <td>·</td>
-  <td>8.5d</td>
-  <td>20 SEP</td>
-  <td>🟢 1–2w</td>
-</tr>
-<tr>
-  <td>7CB</td>
-  <td>51</td>
-  <td>3.0</td>
-  <td>·</td>
-  <td>17.0d</td>
-  <td>29 SEP</td>
-  <td>✅ &gt;2w</td>
-</tr>
-</tbody>
-</table></div>
-
-<p><em>Read this as:</em> 6CB next (stockout ~12 SEP). 11:00 AM reorder alert handles purchase recommendation separately.</p>
-
+        <!-- Key Metrics -->
+        
+        <div class="card-metrics">
+          
+          <div class="metric">
+            <span class="metric-label">recent runway</span>
+            <span class="metric-value">7d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">Trend</span>
+            <span class="metric-value">↑ accelerating · → stable · ↓ slowing (recent 7d vs earlier cycle)_</span>
+          </div>
+          
         </div>
+        
 
+        <!-- Tables -->
+        
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                
+                <th>SKU</th>
+                
+                <th>Stock</th>
+                
+                <th>Vel/day</th>
+                
+                <th>Trend</th>
+                
+                <th>Runway</th>
+                
+                <th>Stockout</th>
+                
+                <th>Status</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                
+                <td>SB</td>
+                
+                <td>30</td>
+                
+                <td>3.0</td>
+                
+                <td>·</td>
+                
+                <td>10.0d</td>
+                
+                <td>22 SEP</td>
+                
+                <td>🟢 1–2w</td>
+                
+              </tr>
+              
+              <tr>
+                
+                <td>CB</td>
+                
+                <td>48</td>
+                
+                <td>12.0</td>
+                
+                <td>·</td>
+                
+                <td>4.0d</td>
+                
+                <td>16 SEP</td>
+                
+                <td>🟡 &lt;1w</td>
+                
+              </tr>
+              
+              <tr>
+                
+                <td>6SB</td>
+                
+                <td>11</td>
+                
+                <td>0.0</td>
+                
+                <td>·</td>
+                
+                <td>—</td>
+                
+                <td>—</td>
+                
+                <td>⚪ No velocity</td>
+                
+              </tr>
+              
+              <tr>
+                
+                <td>6CB</td>
+                
+                <td>1</td>
+                
+                <td>3.0</td>
+                
+                <td>·</td>
+                
+                <td>0.3d</td>
+                
+                <td>12 SEP</td>
+                
+                <td>🔴 &lt;3d</td>
+                
+              </tr>
+              
+              <tr>
+                
+                <td>7SB</td>
+                
+                <td>17</td>
+                
+                <td>2.0</td>
+                
+                <td>·</td>
+                
+                <td>8.5d</td>
+                
+                <td>20 SEP</td>
+                
+                <td>🟢 1–2w</td>
+                
+              </tr>
+              
+              <tr>
+                
+                <td>7CB</td>
+                
+                <td>51</td>
+                
+                <td>3.0</td>
+                
+                <td>·</td>
+                
+                <td>17.0d</td>
+                
+                <td>29 SEP</td>
+                
+                <td>✅ &gt;2w</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+        
+
+        <!-- Technical Details (Collapsible) -->
+        
+
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-9e629683c51d" type="button">
           <span class="expand-text">Show history (7 previous runs)</span>
@@ -179,45 +248,45 @@
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 10:30 IST">2026-09-11 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--warning" aria-label="Warning"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-11…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-11 10:30:38 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 10:30 IST">2026-09-10 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-10…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-10 10:30:39 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-09 10:30 IST">2026-09-09 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-09…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-09 10:30:32 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-08 10:30 IST">2026-09-08 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-08…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-08 10:30:37 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-07 10:30 IST">2026-09-07 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-07…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-07 10:30:54 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-06 10:30 IST">2026-09-06 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-06…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-06 10:30:30 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-05 10:30 IST">2026-09-05 10:30 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-05…</span>
+              <span class="history-preview">Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-05 10:30:49 Mode: noagent script --- 📊 QSE…</span>
             </div>
             
           </div>
@@ -231,10 +300,10 @@
       </footer>
     </article>
     
-    <article class="card card--large" data-job-id="8ce9321bda23">
+    <article class="card card--large" data-job-id="8ce9321bda23" data-category="stock">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">QSEC Reorder Alert</h2>
+          <h2 class="card-title">Reorder Alert</h2>
           <span class="status-badge status-badge--alert">Alert</span>
         </div>
         <div class="card-meta">
@@ -244,61 +313,142 @@
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-8ce9321bda23">
-          <h3>Cron Job: QSEC Reorder Alert</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">🚨 QSEC REORDER ALERT — Order stock today</div>
+        
 
-<p><strong>Job ID:</strong> 8ce9321bda23
-<strong>Run Time:</strong> 2026-09-12 11:00:12
-<strong>Mode:</strong> no_agent (script)</p>
+        <!-- Key Metrics -->
+        
+        <div class="card-metrics">
+          
+          <div class="metric">
+            <span class="metric-label">6CB runway</span>
+            <span class="metric-value">0.3d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">70 runway</span>
+            <span class="metric-value">4.0d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">35 runway</span>
+            <span class="metric-value">0.3d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">0 runway</span>
+            <span class="metric-value">17.0d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">32 runway</span>
+            <span class="metric-value">10.0d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">3 runway</span>
+            <span class="metric-value">8.5d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">CB order</span>
+            <span class="metric-value">70u</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">CB coverage</span>
+            <span class="metric-value">4.0d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">6CB order</span>
+            <span class="metric-value">35u</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">6CB coverage</span>
+            <span class="metric-value">0.3d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">7CB order</span>
+            <span class="metric-value">0u</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">7CB coverage</span>
+            <span class="metric-value">17.0d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">SB order</span>
+            <span class="metric-value">32u</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">SB coverage</span>
+            <span class="metric-value">10.0d</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">7SB order</span>
+            <span class="metric-value">3u</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">7SB coverage</span>
+            <span class="metric-value">8.5d</span>
+          </div>
+          
+        </div>
+        
 
-<hr>
+        <!-- Tables -->
+        
 
-<p>🚨 <em>QSEC REORDER ALERT</em> — Order stock today</p>
-
-<p>── <em>PART 1 · LOGIC</em> ──
-Run: <code>12 Sep 2026, 11:00 AM IST</code>
-Stock row: <code>2026-09-11</code>  ·  gap <code>1d</code>
-⚠️ <em>FALLBACK</em> — stock row is 1 day old. Numbers use yesterday’s close.
-   <em>Verify physically before placing the order.</em></p>
-
-<p><em>Why triggered</em>
-• single-SKU runway &lt; 3 days: 6CB 0.3d</p>
-
-<p><em>Velocity base</em>
-• Cycle from <code>2026-09-10</code> (2 rows) — latest major restock anchor
-• CB+7CB combined runway now: <code>6.6d</code></p>
-
-<p><em>Order sizing</em>
-• Hard range: <code>130–150</code> units → recommended <em>140</em>
-• Cover target: <code>9d</code> from today (lead <code>2d</code> + buffer <code>7d</code>)
-• Cover-gap need sum: <code>87u</code>  ·  within cap
-• Priority bucket CB+7CB: <code>70u</code> (50% of order, band 50–66%)
-• Timing: order by <em>12 Sep</em>  ·  ETA <em>14 Sep</em> (2-day lead)</p>
-
-<p><em>Allocation method</em>
+        <!-- Technical Details (Collapsible) -->
+        
+        <details class="card-details">
+          <summary class="details-summary">Technical Details</summary>
+          <div class="details-content">
+            <pre>Run: `12 Sep 2026, 11:00 AM IST`
+Stock row: `2026-09-11`  ·  gap `1d`
+⚠️ *FALLBACK* — stock row is 1 day old. Numbers use yesterday’s close.
+*Verify physically before placing the order.*
+*Why triggered*
+• single-SKU runway < 3 days: 6CB 0.3d
+*Velocity base*
+• Cycle from `2026-09-10` (2 rows) — latest major restock anchor
+• CB+7CB combined runway now: `6.6d`
+*Order sizing*
+• Hard range: `130–150` units → recommended *140*
+• Cover target: `9d` from today (lead `2d` + buffer `7d`)
+• Cover-gap need sum: `87u`  ·  within cap
+• Priority bucket CB+7CB: `70u` (50% of order, band 50–66%)
+• Timing: order by *12 Sep*  ·  ETA *14 Sep* (2-day lead)
+*Allocation method*
 • Need = ceil(vel × cover_days − stock)
 • Pass 1: survival floor (lead-time cover) for at-risk SKUs
 • Pass 2: residual split by remaining need (not inverse-runway)
-• Non-priority single-SKU cap: <code>50%</code> of non-priority pool
+• Non-priority single-SKU cap: `50%` of non-priority pool
 • Zero-velocity SKUs get 0 order
-• No velocity (order forced 0): <code>6SB</code></p>
-
-<p><em>Per-SKU drivers</em> (stock · vel · need → feeds order)</p>
-
-<pre><code>SKU    Stock    Vel  Need Pri?
+• No velocity (order forced 0): `6SB`
+*Per-SKU drivers* (stock · vel · need → feeds order)
+```
+SKU    Stock    Vel  Need Pri?
 ------------------------------
 CB        48   12.0    60    Y
-6CB        1    3.0    26     
+6CB        1    3.0    26
 7CB       51    3.0     0    Y
-SB        30    3.0     0     
-6SB       11    0.0     0     
-7SB       17    2.0     1     
-</code></pre>
-
-<p>── <em>PART 2 · ORDER</em> ──
-<em>Coverage = current runway <em>before</em> delivery (stock ÷ vel)</em></p>
-
-<pre><code>SKU     Order   Coverage
+SB        30    3.0     0
+6SB       11    0.0     0
+7SB       17    2.0     1
+```
+_Coverage = current runway *before* delivery (stock ÷ vel)_
+```
+SKU     Order   Coverage
 ------------------------
 CB         70       4.0d
 6CB        35       0.3d
@@ -308,13 +458,14 @@ SB         32      10.0d
 7SB         3       8.5d
 ------------------------
 TOTAL     140
-</code></pre>
+```
+*CB+7CB:* 70u (50%)  ·  *By:* 12 Sep  ·  *ETA:* 14 Sep
+⚠️ Verify counts before placing — stock data not from today.</pre>
+          </div>
+        </details>
+        
 
-<p><em>CB+7CB:</em> 70u (50%)  ·  <em>By:</em> 12 Sep  ·  <em>ETA:</em> 14 Sep
-⚠️ Verify counts before placing — stock data not from today.</p>
-
-        </div>
-
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-8ce9321bda23" type="button">
           <span class="expand-text">Show history (7 previous runs)</span>
@@ -325,45 +476,45 @@ TOTAL     140
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 11:00 IST">2026-09-11 11:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--warning" aria-label="Warning"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-11 11:00:38 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-11 11:00:38 Mode: noagent script --- ⚠️ QSEC REORDER…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 15:07 IST">2026-09-10 15:07 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-10 15:07:00 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-10 15:07:00 Mode: noagent script --- 🚨 QSEC REORDER …</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-09 11:00 IST">2026-09-09 11:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-09 11:00:31 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-09 11:00:31 Mode: noagent script --- 🚨 QSEC REORDER …</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-08 19:41 IST">2026-09-08 19:41 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-08 19:41:37 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-08 19:41:37 Mode: noagent script --- 🚨 QSEC REORDER …</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-07 11:00 IST">2026-09-07 11:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-07 11:00:55 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-07 11:00:55 Mode: noagent script --- 🚨 QSEC REORDER …</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-06 11:00 IST">2026-09-06 11:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-06 11:00:31 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-06 11:00:31 Mode: noagent script --- 🚨 QSEC REORDER …</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-05 11:02 IST">2026-09-05 11:02 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-05 11:02:01 …</span>
+              <span class="history-preview">Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-05 11:02:01 Mode: noagent script --- 🚨 QSEC REORDER …</span>
             </div>
             
           </div>
@@ -377,10 +528,10 @@ TOTAL     140
       </footer>
     </article>
     
-    <article class="card card--medium" data-job-id="08802e12748d">
+    <article class="card card--medium" data-job-id="08802e12748d" data-category="returns">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">Daily Return Analysis</h2>
+          <h2 class="card-title">Return Analysis</h2>
           <span class="status-badge status-badge--alert">Alert</span>
         </div>
         <div class="card-meta">
@@ -390,48 +541,52 @@ TOTAL     140
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-08802e12748d">
-          <h3>Cron Job: daily<em>return</em>analysis</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">📦 Return Authorisation Report</div>
+        
 
-<p><strong>Job ID:</strong> 08802e12748d
-<strong>Run Time:</strong> 2026-09-12 09:30:44
-<strong>Mode:</strong> no_agent (script)</p>
-
-<hr>
-
-<p>📦 Return Authorisation Report
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🗓️ Run: 2026-09-12 | Yesterday: 2026-09-11</p>
-
-<p>📊 SUMMARY
-━━━━━━━━━━
-  Yesterday:   3 returns
-  7-day avg:   2.3/day
-  30-day avg:  3.0/day
-  Trend:       ↑ +13.0% vs last week</p>
-
-<p>⚠️ TOP REASON YESTERDAY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Defective/Does not work properly — 2 cases
-  Order: 402-0624934-3784302
-  Customer note: "This email message was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message." </p>
-
-<p>🚨 FLAGS
-━━━━━━━━
-  ✅ No critical alerts</p>
-
-<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-7-DAY TREND  (09-06 – 09-12)
-  Sep 6     ▓▓▓▓░░░░░░  2
-  Sep 7     ░░░░░░░░░░  0
-  Sep 8     ▓▓▓▓▓▓▓▓▓▓  5  ← peak
-  Sep 9     ▓▓▓▓▓▓░░░░  3
-  Sep 10    ▓▓▓▓▓▓░░░░  3
-  Sep 11    ▓▓▓▓▓▓░░░░  3  ← yesterday
-  Sep 12    ░░░░░░░░░░  0</p>
-
+        <!-- Key Metrics -->
+        
+        <div class="card-metrics">
+          
+          <div class="metric">
+            <span class="metric-label">Yesterday</span>
+            <span class="metric-value">3 returns</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">7-day avg</span>
+            <span class="metric-value">2.3/day</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">30-day avg</span>
+            <span class="metric-value">3.0/day</span>
+          </div>
+          
+          <div class="metric">
+            <span class="metric-label">Trend</span>
+            <span class="metric-value">↑ +13.0% vs last week</span>
+          </div>
+          
         </div>
+        
 
+        <!-- Tables -->
+        
+
+        <!-- Technical Details (Collapsible) -->
+        
+        <details class="card-details">
+          <summary class="details-summary">Technical Details</summary>
+          <div class="details-content">
+            <pre>Trend:       ↑ +13.0% vs last week</pre>
+          </div>
+        </details>
+        
+
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-08802e12748d" type="button">
           <span class="expand-text">Show history (7 previous runs)</span>
@@ -442,45 +597,45 @@ TOTAL     140
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 09:31 IST">2026-09-11 09:31 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-11 09:31:14…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-11 09:31:14 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 10:08 IST">2026-09-10 10:08 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-10 10:08:15…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-10 10:08:15 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-09 09:31 IST">2026-09-09 09:31 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-09 09:31:05…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-09 09:31:05 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-08 09:31 IST">2026-09-08 09:31 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-08 09:31:11…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-08 09:31:11 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-07 09:31 IST">2026-09-07 09:31 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-07 09:31:28…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-07 09:31:28 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-06 10:21 IST">2026-09-06 10:21 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-06 10:21:05…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-06 10:21:05 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-05 09:31 IST">2026-09-05 09:31 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-05 09:31:24…</span>
+              <span class="history-preview">Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-05 09:31:24 Mode: noagent script --- 📦 Return Autho…</span>
             </div>
             
           </div>
@@ -494,10 +649,10 @@ TOTAL     140
       </footer>
     </article>
     
-    <article class="card card--medium" data-job-id="74f6b0d33120">
+    <article class="card card--medium" data-job-id="74f6b0d33120" data-category="returns">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">Daily Wrong Item Tracker</h2>
+          <h2 class="card-title">Wrong Item Tracker</h2>
           <span class="status-badge status-badge--silent">Silent</span>
         </div>
         <div class="card-meta">
@@ -507,16 +662,21 @@ TOTAL     140
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-74f6b0d33120">
-          <h3>Cron Job: daily<em>wrong</em>item_tracker</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">Status: silent (empty output)</div>
+        
 
-<p><strong>Job ID:</strong> 74f6b0d33120
-<strong>Run Time:</strong> 2026-09-12 09:35:10
-<strong>Mode:</strong> no_agent (script)
-<strong>Status:</strong> silent (empty output)</p>
+        <!-- Key Metrics -->
+        
 
-        </div>
+        <!-- Tables -->
+        
 
+        <!-- Technical Details (Collapsible) -->
+        
+
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-74f6b0d33120" type="button">
           <span class="expand-text">Show history (7 previous runs)</span>
@@ -527,45 +687,45 @@ TOTAL     140
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 09:35 IST">2026-09-11 09:35 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-11 09:35:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-11 09:35:38 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 10:07 IST">2026-09-10 10:07 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-10 10:07:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-10 10:07:40 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-09 09:35 IST">2026-09-09 09:35 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-09 09:35:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-09 09:35:31 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-08 09:35 IST">2026-09-08 09:35 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-08 09:35:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-08 09:35:36 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-07 09:35 IST">2026-09-07 09:35 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-07 09:35:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-07 09:35:54 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-06 10:20 IST">2026-09-06 10:20 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-06 10:20:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-06 10:20:30 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-05 09:35 IST">2026-09-05 09:35 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-05 09:35:…</span>
+              <span class="history-preview">Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-05 09:35:47 Mode: noagent script Status: silent e…</span>
             </div>
             
           </div>
@@ -579,10 +739,10 @@ TOTAL     140
       </footer>
     </article>
     
-    <article class="card card--small" data-job-id="e7da40c7ecd2">
+    <article class="card card--small" data-job-id="e7da40c7ecd2" data-category="monitoring">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">Google Token Monitor</h2>
+          <h2 class="card-title">Token Monitor</h2>
           <span class="status-badge status-badge--ok">OK</span>
         </div>
         <div class="card-meta">
@@ -592,16 +752,21 @@ TOTAL     140
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-e7da40c7ecd2">
-          <h3>Cron Job: google-token-monitor</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">Status: silent (empty output)</div>
+        
 
-<p><strong>Job ID:</strong> e7da40c7ecd2
-<strong>Run Time:</strong> 2026-09-12 16:00:18
-<strong>Mode:</strong> no_agent (script)
-<strong>Status:</strong> silent (empty output)</p>
+        <!-- Key Metrics -->
+        
 
-        </div>
+        <!-- Tables -->
+        
 
+        <!-- Technical Details (Collapsible) -->
+        
+
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-e7da40c7ecd2" type="button">
           <span class="expand-text">Show history (7 previous runs)</span>
@@ -612,45 +777,45 @@ TOTAL     140
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-12 08:00 IST">2026-09-12 08:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 08:00:0…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 08:00:07 Mode: noagent script Status: silent em…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-12 00:00 IST">2026-09-12 00:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 00:00:5…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 00:00:58 Mode: noagent script Status: silent em…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 16:00 IST">2026-09-11 16:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 16:00:4…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 16:00:45 Mode: noagent script Status: silent em…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 08:13 IST">2026-09-11 08:13 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 08:13:3…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 08:13:35 Mode: noagent script Status: silent em…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 17:45 IST">2026-09-10 17:45 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 17:45:5…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 17:45:50 Mode: noagent script Status: silent em…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 10:07 IST">2026-09-10 10:07 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 10:07:3…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 10:07:38 Mode: noagent script Status: silent em…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 00:00 IST">2026-09-10 00:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--ok" aria-label="OK"></span>
-              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 00:00:3…</span>
+              <span class="history-preview">Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 00:00:34 Mode: noagent script Status: silent em…</span>
             </div>
             
           </div>
@@ -664,10 +829,10 @@ TOTAL     140
       </footer>
     </article>
     
-    <article class="card card--small" data-job-id="01825b20043f">
+    <article class="card card--small" data-job-id="01825b20043f" data-category="monitoring">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">Andon Cord Monitor</h2>
+          <h2 class="card-title">Andon Monitor</h2>
           <span class="status-badge status-badge--silent">Silent</span>
         </div>
         <div class="card-meta">
@@ -677,16 +842,21 @@ TOTAL     140
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-01825b20043f">
-          <h3>Cron Job: daily<em>andon</em>cord_monitor</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">Status: silent (empty output)</div>
+        
 
-<p><strong>Job ID:</strong> 01825b20043f
-<strong>Run Time:</strong> 2026-09-12 12:00:14
-<strong>Mode:</strong> no_agent (script)
-<strong>Status:</strong> silent (empty output)</p>
+        <!-- Key Metrics -->
+        
 
-        </div>
+        <!-- Tables -->
+        
 
+        <!-- Technical Details (Collapsible) -->
+        
+
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-01825b20043f" type="button">
           <span class="expand-text">Show history (2 previous runs)</span>
@@ -697,15 +867,15 @@ TOTAL     140
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-11 12:00 IST">2026-09-11 12:00 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-11 12:00:…</span>
+              <span class="history-preview">Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-11 12:00:16 Mode: noagent script Status: silent e…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-09-10 15:07 IST">2026-09-10 15:07 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--silent" aria-label="Silent"></span>
-              <span class="history-preview">Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-10 15:07:…</span>
+              <span class="history-preview">Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-10 15:07:02 Mode: noagent script Status: silent e…</span>
             </div>
             
           </div>
@@ -719,10 +889,10 @@ TOTAL     140
       </footer>
     </article>
     
-    <article class="card card--small" data-job-id="f647964bd2e1">
+    <article class="card card--small" data-job-id="f647964bd2e1" data-category="review">
       <header class="card-header">
         <div class="card-header-main">
-          <h2 class="card-title">Weekly Self-Review</h2>
+          <h2 class="card-title">Weekly Review</h2>
           <span class="status-badge status-badge--ok">OK</span>
         </div>
         <div class="card-meta">
@@ -732,101 +902,21 @@ TOTAL     140
       </header>
 
       <div class="card-body">
-        <div class="card-output" id="output-f647964bd2e1">
-          <h3>Cron Job: qsec-weekly-self-review</h3>
+        <!-- Primary: Summary -->
+        
+        <div class="card-summary">[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try </div>
+        
 
-<p><strong>Job ID:</strong> f647964bd2e1
-<strong>Run Time:</strong> 2026-09-06 18:02:50
-<strong>Schedule:</strong> 0 18 * * 0</p>
+        <!-- Key Metrics -->
+        
 
-<h4>Prompt</h4>
+        <!-- Tables -->
+        
 
-<p>[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the output yourself. Just produce your report/output as your final response and the system handles the rest. SILENT: If there is genuinely nothing new to report, respond with exactly "[SILENT]" (nothing else) to suppress delivery. Never combine [SILENT] with content — either report your findings normally, or say [SILENT] and nothing more.]</p>
+        <!-- Technical Details (Collapsible) -->
+        
 
-<p>Review this week's sessions using session_search. Identify: (1) any correction I made to something you got wrong, (2) any recurring question that should become a standing skill instead of being answered fresh each time, (3) any memory entry that's now stale or wrong. Consolidate memory accordingly and report what changed.</p>
-
-<h4>Response</h4>
-
-<p>Based on reviewing this week's sessions, here are the updates needed:</p>
-
-<h4>Corrections Made</h4>
-
-<ol>
-<li><p><strong>QSEC Weekly Self-Review Cron Model</strong>: </p>
-
-<ul>
-<li>Previously: The cron job <code>qsec-weekly-self-review</code> was using the model <code>z-ai/glm-5.2</code> which reached end-of-life on 2026-08-21.</li>
-<li>Corrected: Updated to use <code>nvidia/nemotron-3-super-120b-a12b</code> as requested. The cron job was recreated with job ID <code>f647964bd2e1</code> and ran successfully on 2026-08-23 and 2026-08-30.</li>
-</ul></li>
-<li><p><strong>Hermes Profile Paths</strong>:</p>
-
-<ul>
-<li>Previously: Memory stated "Hermes default profile home is %LOCALAPPDATA%\hermes, not qsec."</li>
-<li>Corrected: Provided exact paths:
-<ul>
-<li>Default profile: <code>C:\Users\Akash Gohil\AppData\Local\hermes</code></li>
-<li>QSEC profile: <code>C:\Users\Akash Gohil\AppData\Local\hermes\profiles\qsec</code></li>
-<li>Research-hunter profile: <code>C:\Users\Akash Gohil\AppData\Local\hermes\profiles\research-hunter</code></li>
-</ul></li>
-</ul></li>
-</ol>
-
-<h4>Recurring Questions Identified (for Standing Skills)</h4>
-
-<p>The following questions recur across sessions and should be encapsulated in dedicated skills:</p>
-
-<ol>
-<li><p><strong>Gateway Status Verification</strong>: </p>
-
-<ul>
-<li>Checks: <code>hermes gateway list</code>, <code>hermes status</code> (inside specific profile), PID verification, Telegram config validation.</li>
-<li>Sessions: <code>20260827_074219_f5a5e774</code>, <code>20260827_074018_7bfa419a</code>, and the Aug 30 cron self-review.</li>
-</ul></li>
-<li><p><strong>Profile Management Diagnostics</strong>:</p>
-
-<ul>
-<li>Checks: Active profile (<code>cat ~/.hermes/active_profile</code>), <code>hermes profile list</code>, distinguishing default vs named profile behavior.</li>
-<li>Sessions: Same as above.</li>
-</ul></li>
-<li><p><strong>Telegram Bot Health Check</strong>:</p>
-
-<ul>
-<li>Checks: Validating bot token configuration, checking for polling conflicts (noting that default/coder/fact<em>checker/script</em>writer share one token while QSEC and research-hunter have unique bots), verifying gateway process status.</li>
-<li>Sessions: Same as above.</li>
-</ul></li>
-</ol>
-
-<h4>Memory Updates Applied</h4>
-
-<p>We recommend updating the persistent memory as follows:</p>
-
-<h3>In the "QSEC Nora" section:</h3>
-
-<ul>
-<li>Change: 
-<pre><code>6 crons (1 LLM weekly self-review; 5 no_agent).
-</code></pre>
-to
-<pre><code>6 crons (1 LLM weekly self-review using nvidia/nemotron-3-super-120b-a12b; 5 no_agent).
-</code></pre></li>
-</ul>
-
-<h3>Replace the "Hermes default profile home" section entirely with:</h3>
-
-<pre><code>Hermes default profile home: C:\Users\Akash Gohil\AppData\Local\hermes
-QSEC profile: C:\Users\Akash Gohil\AppData\Local\hermes\profiles\qsec
-Research-hunter profile: C:\Users\Akash Gohil\AppData\Local\hermes\profiles\research-hunter
-Source of truth for gateways: `hermes gateway list`. `hermes status` inside qsec reports qsec.
-Never write active_profile unless Akash asked—it is cleared when using default profile.
-QSEC and research-hunter have unique Telegram bots; default+coder+fact_checker+script_writer share one token (only one poller).
-</code></pre>
-
-<p>Note: The QSEC Gmail crons entry was verified and remains accurate; no change needed.</p>
-
-<p>No other memory entries were found to be stale or wrong.</p>
-
-        </div>
-
+        <!-- History Expand -->
         
         <button class="card-expand" aria-expanded="false" aria-controls="history-f647964bd2e1" type="button">
           <span class="expand-text">Show history (2 previous runs)</span>
@@ -837,15 +927,15 @@ QSEC and research-hunter have unique Telegram bots; default+coder+fact_checker+s
           <div class="history-list" role="list">
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-08-30 18:02 IST">2026-08-30 18:02 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-30 18:0…</span>
+              <span class="history-preview">Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-30 18:02:09 Schedule: 0 18   0  Prompt IMPORTAN…</span>
             </div>
             
             <div class="history-item" role="listitem">
-              <time class="history-time" datetime="2026-08-23 18:03 IST">2026-08-23 18:03 IST</time>
+              <time class="history-time" datetime="2026-09-12 20:06 IST">2026-09-12 20:06 IST</time>
               <span class="history-status status-dot--alert" aria-label="Alert"></span>
-              <span class="history-preview">Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-23 18:0…</span>
+              <span class="history-preview">Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-23 18:03:49 Schedule: 0 18   0  Prompt IMPORTAN…</span>
             </div>
             
           </div>
@@ -876,13 +966,11 @@ QSEC and research-hunter have unique Telegram bots; default+coder+fact_checker+s
   </footer>
 
   <script>
-    // Expose generated timestamp to JS
-    window.DASHBOARD_GENERATED_AT = '2026-09-12 19:21 IST';
+    window.DASHBOARD_GENERATED_AT = '2026-09-12 20:06 IST';
   </script>
   <script src="assets/dashboard.js"></script>
   <script>
-    // Update last updated timestamp
-    document.getElementById('lastUpdated').textContent = 'Last updated: 2026-09-12 19:21 IST';
+    document.getElementById('lastUpdated').textContent = 'Last updated: 2026-09-12 20:06 IST';
   </script>
 </body>
 </html>
