@@ -1,0 +1,34 @@
+{
+  "name": "QSEC Cron Dashboard",
+  "short_name": "QSEC Dashboard",
+  "description": "Real-time monitoring of all QSEC cron jobs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f5",
+  "theme_color": "#c96442",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Refresh",
+      "short_name": "Refresh",
+      "description": "Refresh dashboard data",
+      "url": "/?refresh=true",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
