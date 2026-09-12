@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-09-12 18:17 IST",
+  "jobs": [
+    {
+      "job_id": "9e629683c51d",
+      "name": "QSEC Stock Runway Prediction",
+      "schedule": "30 10 * * *",
+      "schedule_human": "Daily 10:30 AM IST",
+      "script": "stock_runway_prediction.py",
+      "mode": "no_agent",
+      "size_class": "large",
+      "last_run": {
+        "timestamp": "2026-09-12 10:30 IST",
+        "status": "alert",
+        "status_label": "Alert",
+        "status_class": "status--alert",
+        "output_html": "<h3>Cron Job: QSEC Stock Runway Prediction</h3>\n\n<p><strong>Job ID:</strong> 9e629683c51d\n<strong>Run Time:</strong> 2026-09-12 10:30:10\n<strong>Mode:</strong> no_agent (script)</p>\n\n<hr>\n\n<p>\ud83d\udcca <em>QSEC Stock Runway</em>\n<em>Status:</em> \ud83d\udd34 <em>&lt;3 days:</em> 6CB | \ud83d\udfe1 <em>&lt;1 week:</em> CB</p>\n\n<p><em>Run:</em> 12 Sep 2026, 10:30 AM IST\n<em>Stock row:</em> 2026-09-11\n<em>Velocity base:</em> 2026-09-10 onward (2 rows) \u2014 latest major restock +56 across 5 SKUs\n<em>Trend: \u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)</em>\n<em>Runway \u00b1 is 1\u03c3 from depletion-day variance (needs \u22653 burn days)</em>\n<em>Prior majors ignored for velocity: 2026-08-15(+114), 2026-08-22(+105), 2026-08-27(+107)</em>\n\u26a0\ufe0f <em>Freshness:</em> latest stock row is 1 day(s) old \u2014 today\u2019s form may not be filled yet.\n\u26aa <em>No velocity yet:</em> 6SB</p>\n\n<div class=\"table-wrapper\"><table>\n<thead>\n<tr>\n  <th>SKU</th>\n  <th>Stock</th>\n  <th>Vel/day</th>\n  <th>Trend</th>\n  <th>Runway</th>\n  <th>Stockout</th>\n  <th>Status</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>SB</td>\n  <td>30</td>\n  <td>3.0</td>\n  <td>\u00b7</td>\n  <td>10.0d</td>\n  <td>22 SEP</td>\n  <td>\ud83d\udfe2 1\u20132w</td>\n</tr>\n<tr>\n  <td>CB</td>\n  <td>48</td>\n  <td>12.0</td>\n  <td>\u00b7</td>\n  <td>4.0d</td>\n  <td>16 SEP</td>\n  <td>\ud83d\udfe1 &lt;1w</td>\n</tr>\n<tr>\n  <td>6SB</td>\n  <td>11</td>\n  <td>0.0</td>\n  <td>\u00b7</td>\n  <td>\u2014</td>\n  <td>\u2014</td>\n  <td>\u26aa No velocity</td>\n</tr>\n<tr>\n  <td>6CB</td>\n  <td>1</td>\n  <td>3.0</td>\n  <td>\u00b7</td>\n  <td>0.3d</td>\n  <td>12 SEP</td>\n  <td>\ud83d\udd34 &lt;3d</td>\n</tr>\n<tr>\n  <td>7SB</td>\n  <td>17</td>\n  <td>2.0</td>\n  <td>\u00b7</td>\n  <td>8.5d</td>\n  <td>20 SEP</td>\n  <td>\ud83d\udfe2 1\u20132w</td>\n</tr>\n<tr>\n  <td>7CB</td>\n  <td>51</td>\n  <td>3.0</td>\n  <td>\u00b7</td>\n  <td>17.0d</td>\n  <td>29 SEP</td>\n  <td>\u2705 &gt;2w</td>\n</tr>\n</tbody>\n</table></div>\n\n<p><em>Read this as:</em> 6CB next (stockout ~12 SEP). 11:00 AM reorder alert handles purchase recommendation separately.</p>\n",
+        "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-12 10:30:10 Mode: noagent script --- \ud83d\udcca QSE\u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-12 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "<h3>Cron Job: QSEC Stock Runway Prediction</h3>\n\n<p><strong>Job ID:</strong> 9e629683c51d\n<strong>Run Time:</strong> 2026-09-12 10:30:10\n<strong>Mode:</strong> no_agent (script)</p>\n\n<hr>\n\n<p>\ud83d\udcca <em>QSEC Stock Runway</em>\n<em>Status:</em> \ud83d\udd34 <em>&lt;3 days:</em> 6CB | \ud83d\udfe1 <em>&lt;1 week:</em> CB</p>\n\n<p><em>Run:</em> 12 Sep 2026, 10:30 AM IST\n<em>Stock row:</em> 2026-09-11\n<em>Velocity base:</em> 2026-09-10 onward (2 rows) \u2014 latest major restock +56 across 5 SKUs\n<em>Trend: \u2191 accelerating \u00b7 \u2192 stable \u00b7 \u2193 slowing (recent 7d vs earlier cycle)</em>\n<em>Runway \u00b1 is 1\u03c3 from depletion-day variance (needs \u22653 burn days)</em>\n<em>Prior majors ignored for velocity: 2026-08-15(+114), 2026-08-22(+105), 2026-08-27(+107)</em>\n\u26a0\ufe0f <em>Freshness:</em> latest stock row is 1 day(s) old \u2014 today\u2019s form may not be filled yet.\n\u26aa <em>No velocity yet:</em> 6SB</p>\n\n<div class=\"table-wrapper\"><table>\n<thead>\n<tr>\n  <th>SKU</th>\n  <th>Stock</th>\n  <th>Vel/day</th>\n  <th>Trend</th>\n  <th>Runway</th>\n  <th>Stockout</th>\n  <th>Status</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>SB</td>\n  <td>30</td>\n  <td>3.0</td>\n  <td>\u00b7</td>\n  <td>10.0d</td>\n  <td>22 SEP</td>\n  <td>\ud83d\udfe2 1\u20132w</td>\n</tr>\n<tr>\n  <td>CB</td>\n  <td>48</td>\n  <td>12.0</td>\n  <td>\u00b7</td>\n  <td>4.0d</td>\n  <td>16 SEP</td>\n  <td>\ud83d\udfe1 &lt;1w</td>\n</tr>\n<tr>\n  <td>6SB</td>\n  <td>11</td>\n  <td>0.0</td>\n  <td>\u00b7</td>\n  <td>\u2014</td>\n  <td>\u2014</td>\n  <td>\u26aa No velocity</td>\n</tr>\n<tr>\n  <td>6CB</td>\n  <td>1</td>\n  <td>3.0</td>\n  <td>\u00b7</td>\n  <td>0.3d</td>\n  <td>12 SEP</td>\n  <td>\ud83d\udd34 &lt;3d</td>\n</tr>\n<tr>\n  <td>7SB</td>\n  <td>17</td>\n  <td>2.0</td>\n  <td>\u00b7</td>\n  <td>8.5d</td>\n  <td>20 SEP</td>\n  <td>\ud83d\udfe2 1\u20132w</td>\n</tr>\n<tr>\n  <td>7CB</td>\n  <td>51</td>\n  <td>3.0</td>\n  <td>\u00b7</td>\n  <td>17.0d</td>\n  <td>29 SEP</td>\n  <td>\u2705 &gt;2w</td>\n</tr>\n</tbody>\n</table></div>\n\n<p><em>Read this as:</em> 6CB next (stockout ~12 SEP). 11:00 AM reorder alert handles purchase recommendation separately.</p>\n",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-12 10:30:10 Mode: noagent script --- \ud83d\udcca QSE\u2026"
+        },
+        {
+          "timestamp": "2026-09-11 10:30 IST",
+          "status": "warning",
+          "status_label": "Warning",
+          "status_class": "status--warning",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-11\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-10\u2026"
+        },
+        {
+          "timestamp": "2026-09-09 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-09\u2026"
+        },
+        {
+          "timestamp": "2026-09-08 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-08\u2026"
+        },
+        {
+          "timestamp": "2026-09-07 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-07\u2026"
+        },
+        {
+          "timestamp": "2026-09-06 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-06\u2026"
+        },
+        {
+          "timestamp": "2026-09-05 10:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Stock Runway Prediction Job ID: 9e629683c51d Run Time: 2026-09-05\u2026"
+        }
+      ],
+      "next_run": "2026-09-13 10:30 IST"
+    },
+    {
+      "job_id": "8ce9321bda23",
+      "name": "QSEC Reorder Alert",
+      "schedule": "0 11 * * *",
+      "schedule_human": "Daily 11:00 AM IST",
+      "script": "stock_reorder_alert.py",
+      "mode": "no_agent",
+      "size_class": "large",
+      "last_run": {
+        "timestamp": "2026-09-12 11:00 IST",
+        "status": "alert",
+        "status_label": "Alert",
+        "status_class": "status--alert",
+        "output_html": "<h3>Cron Job: QSEC Reorder Alert</h3>\n\n<p><strong>Job ID:</strong> 8ce9321bda23\n<strong>Run Time:</strong> 2026-09-12 11:00:12\n<strong>Mode:</strong> no_agent (script)</p>\n\n<hr>\n\n<p>\ud83d\udea8 <em>QSEC REORDER ALERT</em> \u2014 Order stock today</p>\n\n<p>\u2500\u2500 <em>PART 1 \u00b7 LOGIC</em> \u2500\u2500\nRun: <code>12 Sep 2026, 11:00 AM IST</code>\nStock row: <code>2026-09-11</code>  \u00b7  gap <code>1d</code>\n\u26a0\ufe0f <em>FALLBACK</em> \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n   <em>Verify physically before placing the order.</em></p>\n\n<p><em>Why triggered</em>\n\u2022 single-SKU runway &lt; 3 days: 6CB 0.3d</p>\n\n<p><em>Velocity base</em>\n\u2022 Cycle from <code>2026-09-10</code> (2 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: <code>6.6d</code></p>\n\n<p><em>Order sizing</em>\n\u2022 Hard range: <code>130\u2013150</code> units \u2192 recommended <em>140</em>\n\u2022 Cover target: <code>9d</code> from today (lead <code>2d</code> + buffer <code>7d</code>)\n\u2022 Cover-gap need sum: <code>87u</code>  \u00b7  within cap\n\u2022 Priority bucket CB+7CB: <code>70u</code> (50% of order, band 50\u201366%)\n\u2022 Timing: order by <em>12 Sep</em>  \u00b7  ETA <em>14 Sep</em> (2-day lead)</p>\n\n<p><em>Allocation method</em>\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: <code>50%</code> of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 No velocity (order forced 0): <code>6SB</code></p>\n\n<p><em>Per-SKU drivers</em> (stock \u00b7 vel \u00b7 need \u2192 feeds order)</p>\n\n<pre><code>SKU    Stock    Vel  Need Pri?\n------------------------------\nCB        48   12.0    60    Y\n6CB        1    3.0    26     \n7CB       51    3.0     0    Y\nSB        30    3.0     0     \n6SB       11    0.0     0     \n7SB       17    2.0     1     \n</code></pre>\n\n<p>\u2500\u2500 <em>PART 2 \u00b7 ORDER</em> \u2500\u2500\n<em>Coverage = current runway <em>before</em> delivery (stock \u00f7 vel)</em></p>\n\n<pre><code>SKU     Order   Coverage\n------------------------\nCB         70       4.0d\n6CB        35       0.3d\n7CB         0      17.0d\nSB         32      10.0d\n6SB         0          \u2014\n7SB         3       8.5d\n------------------------\nTOTAL     140\n</code></pre>\n\n<p><em>CB+7CB:</em> 70u (50%)  \u00b7  <em>By:</em> 12 Sep  \u00b7  <em>ETA:</em> 14 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.</p>\n",
+        "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-12 11:00:12 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-12 11:00 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "<h3>Cron Job: QSEC Reorder Alert</h3>\n\n<p><strong>Job ID:</strong> 8ce9321bda23\n<strong>Run Time:</strong> 2026-09-12 11:00:12\n<strong>Mode:</strong> no_agent (script)</p>\n\n<hr>\n\n<p>\ud83d\udea8 <em>QSEC REORDER ALERT</em> \u2014 Order stock today</p>\n\n<p>\u2500\u2500 <em>PART 1 \u00b7 LOGIC</em> \u2500\u2500\nRun: <code>12 Sep 2026, 11:00 AM IST</code>\nStock row: <code>2026-09-11</code>  \u00b7  gap <code>1d</code>\n\u26a0\ufe0f <em>FALLBACK</em> \u2014 stock row is 1 day old. Numbers use yesterday\u2019s close.\n   <em>Verify physically before placing the order.</em></p>\n\n<p><em>Why triggered</em>\n\u2022 single-SKU runway &lt; 3 days: 6CB 0.3d</p>\n\n<p><em>Velocity base</em>\n\u2022 Cycle from <code>2026-09-10</code> (2 rows) \u2014 latest major restock anchor\n\u2022 CB+7CB combined runway now: <code>6.6d</code></p>\n\n<p><em>Order sizing</em>\n\u2022 Hard range: <code>130\u2013150</code> units \u2192 recommended <em>140</em>\n\u2022 Cover target: <code>9d</code> from today (lead <code>2d</code> + buffer <code>7d</code>)\n\u2022 Cover-gap need sum: <code>87u</code>  \u00b7  within cap\n\u2022 Priority bucket CB+7CB: <code>70u</code> (50% of order, band 50\u201366%)\n\u2022 Timing: order by <em>12 Sep</em>  \u00b7  ETA <em>14 Sep</em> (2-day lead)</p>\n\n<p><em>Allocation method</em>\n\u2022 Need = ceil(vel \u00d7 cover_days \u2212 stock)\n\u2022 Pass 1: survival floor (lead-time cover) for at-risk SKUs\n\u2022 Pass 2: residual split by remaining need (not inverse-runway)\n\u2022 Non-priority single-SKU cap: <code>50%</code> of non-priority pool\n\u2022 Zero-velocity SKUs get 0 order\n\u2022 No velocity (order forced 0): <code>6SB</code></p>\n\n<p><em>Per-SKU drivers</em> (stock \u00b7 vel \u00b7 need \u2192 feeds order)</p>\n\n<pre><code>SKU    Stock    Vel  Need Pri?\n------------------------------\nCB        48   12.0    60    Y\n6CB        1    3.0    26     \n7CB       51    3.0     0    Y\nSB        30    3.0     0     \n6SB       11    0.0     0     \n7SB       17    2.0     1     \n</code></pre>\n\n<p>\u2500\u2500 <em>PART 2 \u00b7 ORDER</em> \u2500\u2500\n<em>Coverage = current runway <em>before</em> delivery (stock \u00f7 vel)</em></p>\n\n<pre><code>SKU     Order   Coverage\n------------------------\nCB         70       4.0d\n6CB        35       0.3d\n7CB         0      17.0d\nSB         32      10.0d\n6SB         0          \u2014\n7SB         3       8.5d\n------------------------\nTOTAL     140\n</code></pre>\n\n<p><em>CB+7CB:</em> 70u (50%)  \u00b7  <em>By:</em> 12 Sep  \u00b7  <em>ETA:</em> 14 Sep\n\u26a0\ufe0f Verify counts before placing \u2014 stock data not from today.</p>\n",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-12 11:00:12 Mode: noagent script --- \ud83d\udea8 QSEC REORDER \u2026"
+        },
+        {
+          "timestamp": "2026-09-11 11:00 IST",
+          "status": "warning",
+          "status_label": "Warning",
+          "status_class": "status--warning",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-11 11:00:38 \u2026"
+        },
+        {
+          "timestamp": "2026-09-10 15:07 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-10 15:07:00 \u2026"
+        },
+        {
+          "timestamp": "2026-09-09 11:00 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-09 11:00:31 \u2026"
+        },
+        {
+          "timestamp": "2026-09-08 19:41 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-08 19:41:37 \u2026"
+        },
+        {
+          "timestamp": "2026-09-07 11:00 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-07 11:00:55 \u2026"
+        },
+        {
+          "timestamp": "2026-09-06 11:00 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-06 11:00:31 \u2026"
+        },
+        {
+          "timestamp": "2026-09-05 11:02 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: QSEC Reorder Alert Job ID: 8ce9321bda23 Run Time: 2026-09-05 11:02:01 \u2026"
+        }
+      ],
+      "next_run": "2026-09-13 11:00 IST"
+    },
+    {
+      "job_id": "08802e12748d",
+      "name": "Daily Return Analysis",
+      "schedule": "30 9 * * *",
+      "schedule_human": "Daily 9:30 AM IST",
+      "script": "fetch_return_authorisations.py",
+      "mode": "no_agent",
+      "size_class": "medium",
+      "last_run": {
+        "timestamp": "2026-09-12 09:30 IST",
+        "status": "alert",
+        "status_label": "Alert",
+        "status_class": "status--alert",
+        "output_html": "<h3>Cron Job: daily<em>return</em>analysis</h3>\n\n<p><strong>Job ID:</strong> 08802e12748d\n<strong>Run Time:</strong> 2026-09-12 09:30:44\n<strong>Mode:</strong> no_agent (script)</p>\n\n<hr>\n\n<p>\ud83d\udce6 Return Authorisation Report\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\uddd3\ufe0f Run: 2026-09-12 | Yesterday: 2026-09-11</p>\n\n<p>\ud83d\udcca SUMMARY\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  Yesterday:   3 returns\n  7-day avg:   2.3/day\n  30-day avg:  3.0/day\n  Trend:       \u2191 +13.0% vs last week</p>\n\n<p>\u26a0\ufe0f TOP REASON YESTERDAY\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  Defective/Does not work properly \u2014 2 cases\n  Order: 402-0624934-3784302\n  Customer note: \"This email message was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.\" </p>\n\n<p>\ud83d\udea8 FLAGS\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  \u2705 No critical alerts</p>\n\n<p>\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n7-DAY TREND  (09-06 \u2013 09-12)\n  Sep 6     \u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591\u2591  2\n  Sep 7     \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  0\n  Sep 8     \u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593  5  \u2190 peak\n  Sep 9     \u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591  3\n  Sep 10    \u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591  3\n  Sep 11    \u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591  3  \u2190 yesterday\n  Sep 12    \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  0</p>\n",
+        "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-12 09:30:44 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-12 09:30 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "<h3>Cron Job: daily<em>return</em>analysis</h3>\n\n<p><strong>Job ID:</strong> 08802e12748d\n<strong>Run Time:</strong> 2026-09-12 09:30:44\n<strong>Mode:</strong> no_agent (script)</p>\n\n<hr>\n\n<p>\ud83d\udce6 Return Authorisation Report\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83d\uddd3\ufe0f Run: 2026-09-12 | Yesterday: 2026-09-11</p>\n\n<p>\ud83d\udcca SUMMARY\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  Yesterday:   3 returns\n  7-day avg:   2.3/day\n  30-day avg:  3.0/day\n  Trend:       \u2191 +13.0% vs last week</p>\n\n<p>\u26a0\ufe0f TOP REASON YESTERDAY\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  Defective/Does not work properly \u2014 2 cases\n  Order: 402-0624934-3784302\n  Customer note: \"This email message was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.\" </p>\n\n<p>\ud83d\udea8 FLAGS\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n  \u2705 No critical alerts</p>\n\n<p>\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n7-DAY TREND  (09-06 \u2013 09-12)\n  Sep 6     \u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591\u2591  2\n  Sep 7     \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  0\n  Sep 8     \u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593  5  \u2190 peak\n  Sep 9     \u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591  3\n  Sep 10    \u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591  3\n  Sep 11    \u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591  3  \u2190 yesterday\n  Sep 12    \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  0</p>\n",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-12 09:30:44 Mode: noagent script --- \ud83d\udce6 Return Autho\u2026"
+        },
+        {
+          "timestamp": "2026-09-11 09:31 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-11 09:31:14\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 10:08 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-10 10:08:15\u2026"
+        },
+        {
+          "timestamp": "2026-09-09 09:31 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-09 09:31:05\u2026"
+        },
+        {
+          "timestamp": "2026-09-08 09:31 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-08 09:31:11\u2026"
+        },
+        {
+          "timestamp": "2026-09-07 09:31 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-07 09:31:28\u2026"
+        },
+        {
+          "timestamp": "2026-09-06 10:21 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-06 10:21:05\u2026"
+        },
+        {
+          "timestamp": "2026-09-05 09:31 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyreturnanalysis Job ID: 08802e12748d Run Time: 2026-09-05 09:31:24\u2026"
+        }
+      ],
+      "next_run": "2026-09-13 09:30 IST"
+    },
+    {
+      "job_id": "74f6b0d33120",
+      "name": "Daily Wrong Item Tracker",
+      "schedule": "35 9 * * *",
+      "schedule_human": "Daily 9:35 AM IST",
+      "script": "parse_wrong_items.py",
+      "mode": "no_agent",
+      "size_class": "medium",
+      "last_run": {
+        "timestamp": "2026-09-12 09:35 IST",
+        "status": "silent",
+        "status_label": "Silent",
+        "status_class": "status--silent",
+        "output_html": "<h3>Cron Job: daily<em>wrong</em>item_tracker</h3>\n\n<p><strong>Job ID:</strong> 74f6b0d33120\n<strong>Run Time:</strong> 2026-09-12 09:35:10\n<strong>Mode:</strong> no_agent (script)\n<strong>Status:</strong> silent (empty output)</p>\n",
+        "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-12 09:35:10 Mode: noagent script Status: silent e\u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-12 09:35 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "<h3>Cron Job: daily<em>wrong</em>item_tracker</h3>\n\n<p><strong>Job ID:</strong> 74f6b0d33120\n<strong>Run Time:</strong> 2026-09-12 09:35:10\n<strong>Mode:</strong> no_agent (script)\n<strong>Status:</strong> silent (empty output)</p>\n",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-12 09:35:10 Mode: noagent script Status: silent e\u2026"
+        },
+        {
+          "timestamp": "2026-09-11 09:35 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-11 09:35:\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 10:07 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-10 10:07:\u2026"
+        },
+        {
+          "timestamp": "2026-09-09 09:35 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-09 09:35:\u2026"
+        },
+        {
+          "timestamp": "2026-09-08 09:35 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-08 09:35:\u2026"
+        },
+        {
+          "timestamp": "2026-09-07 09:35 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-07 09:35:\u2026"
+        },
+        {
+          "timestamp": "2026-09-06 10:20 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-06 10:20:\u2026"
+        },
+        {
+          "timestamp": "2026-09-05 09:35 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailywrongitemtracker Job ID: 74f6b0d33120 Run Time: 2026-09-05 09:35:\u2026"
+        }
+      ],
+      "next_run": "2026-09-13 09:35 IST"
+    },
+    {
+      "job_id": "e7da40c7ecd2",
+      "name": "Google Token Monitor",
+      "schedule": "0 */8 * * *",
+      "schedule_human": "Every 8 hours",
+      "script": "google_token_monitor.py",
+      "mode": "no_agent",
+      "size_class": "small",
+      "last_run": {
+        "timestamp": "2026-09-12 16:00 IST",
+        "status": "ok",
+        "status_label": "OK",
+        "status_class": "status--ok",
+        "output_html": "<h3>Cron Job: google-token-monitor</h3>\n\n<p><strong>Job ID:</strong> e7da40c7ecd2\n<strong>Run Time:</strong> 2026-09-12 16:00:18\n<strong>Mode:</strong> no_agent (script)\n<strong>Status:</strong> silent (empty output)</p>\n",
+        "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 16:00:18 Mode: noagent script Status: silent em\u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-12 16:00 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "<h3>Cron Job: google-token-monitor</h3>\n\n<p><strong>Job ID:</strong> e7da40c7ecd2\n<strong>Run Time:</strong> 2026-09-12 16:00:18\n<strong>Mode:</strong> no_agent (script)\n<strong>Status:</strong> silent (empty output)</p>\n",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 16:00:18 Mode: noagent script Status: silent em\u2026"
+        },
+        {
+          "timestamp": "2026-09-12 08:00 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 08:00:0\u2026"
+        },
+        {
+          "timestamp": "2026-09-12 00:00 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-12 00:00:5\u2026"
+        },
+        {
+          "timestamp": "2026-09-11 16:00 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 16:00:4\u2026"
+        },
+        {
+          "timestamp": "2026-09-11 08:13 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-11 08:13:3\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 17:45 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 17:45:5\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 10:07 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 10:07:3\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 00:00 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "",
+          "output_preview": "Cron Job: google-token-monitor Job ID: e7da40c7ecd2 Run Time: 2026-09-10 00:00:3\u2026"
+        }
+      ],
+      "next_run": "2026-09-13 00:00 IST"
+    },
+    {
+      "job_id": "01825b20043f",
+      "name": "Andon Cord Monitor",
+      "schedule": "0 12 * * *",
+      "schedule_human": "Daily 12:00 PM IST",
+      "script": "andon_cord_monitor.py",
+      "mode": "no_agent",
+      "size_class": "small",
+      "last_run": {
+        "timestamp": "2026-09-12 12:00 IST",
+        "status": "silent",
+        "status_label": "Silent",
+        "status_class": "status--silent",
+        "output_html": "<h3>Cron Job: daily<em>andon</em>cord_monitor</h3>\n\n<p><strong>Job ID:</strong> 01825b20043f\n<strong>Run Time:</strong> 2026-09-12 12:00:14\n<strong>Mode:</strong> no_agent (script)\n<strong>Status:</strong> silent (empty output)</p>\n",
+        "output_preview": "Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-12 12:00:14 Mode: noagent script Status: silent e\u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-12 12:00 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "<h3>Cron Job: daily<em>andon</em>cord_monitor</h3>\n\n<p><strong>Job ID:</strong> 01825b20043f\n<strong>Run Time:</strong> 2026-09-12 12:00:14\n<strong>Mode:</strong> no_agent (script)\n<strong>Status:</strong> silent (empty output)</p>\n",
+          "output_preview": "Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-12 12:00:14 Mode: noagent script Status: silent e\u2026"
+        },
+        {
+          "timestamp": "2026-09-11 12:00 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-11 12:00:\u2026"
+        },
+        {
+          "timestamp": "2026-09-10 15:07 IST",
+          "status": "silent",
+          "status_label": "Silent",
+          "status_class": "status--silent",
+          "output_html": "",
+          "output_preview": "Cron Job: dailyandoncordmonitor Job ID: 01825b20043f Run Time: 2026-09-10 15:07:\u2026"
+        }
+      ],
+      "next_run": "2026-09-13 12:00 IST"
+    },
+    {
+      "job_id": "f647964bd2e1",
+      "name": "Weekly Self-Review",
+      "schedule": "0 18 * * 0",
+      "schedule_human": "Sunday 6:00 PM IST",
+      "script": "(LLM agent)",
+      "mode": "llm_agent",
+      "size_class": "small",
+      "last_run": {
+        "timestamp": "2026-09-06 18:02 IST",
+        "status": "ok",
+        "status_label": "OK",
+        "status_class": "status--ok",
+        "output_html": "<h3>Cron Job: qsec-weekly-self-review</h3>\n\n<p><strong>Job ID:</strong> f647964bd2e1\n<strong>Run Time:</strong> 2026-09-06 18:02:50\n<strong>Schedule:</strong> 0 18 * * 0</p>\n\n<h4>Prompt</h4>\n\n<p>[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user \u2014 do NOT use send_message or try to deliver the output yourself. Just produce your report/output as your final response and the system handles the rest. SILENT: If there is genuinely nothing new to report, respond with exactly \"[SILENT]\" (nothing else) to suppress delivery. Never combine [SILENT] with content \u2014 either report your findings normally, or say [SILENT] and nothing more.]</p>\n\n<p>Review this week's sessions using session_search. Identify: (1) any correction I made to something you got wrong, (2) any recurring question that should become a standing skill instead of being answered fresh each time, (3) any memory entry that's now stale or wrong. Consolidate memory accordingly and report what changed.</p>\n\n<h4>Response</h4>\n\n<p>Based on reviewing this week's sessions, here are the updates needed:</p>\n\n<h4>Corrections Made</h4>\n\n<ol>\n<li><p><strong>QSEC Weekly Self-Review Cron Model</strong>: </p>\n\n<ul>\n<li>Previously: The cron job <code>qsec-weekly-self-review</code> was using the model <code>z-ai/glm-5.2</code> which reached end-of-life on 2026-08-21.</li>\n<li>Corrected: Updated to use <code>nvidia/nemotron-3-super-120b-a12b</code> as requested. The cron job was recreated with job ID <code>f647964bd2e1</code> and ran successfully on 2026-08-23 and 2026-08-30.</li>\n</ul></li>\n<li><p><strong>Hermes Profile Paths</strong>:</p>\n\n<ul>\n<li>Previously: Memory stated \"Hermes default profile home is %LOCALAPPDATA%\\hermes, not qsec.\"</li>\n<li>Corrected: Provided exact paths:\n<ul>\n<li>Default profile: <code>C:\\Users\\Akash Gohil\\AppData\\Local\\hermes</code></li>\n<li>QSEC profile: <code>C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\qsec</code></li>\n<li>Research-hunter profile: <code>C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\research-hunter</code></li>\n</ul></li>\n</ul></li>\n</ol>\n\n<h4>Recurring Questions Identified (for Standing Skills)</h4>\n\n<p>The following questions recur across sessions and should be encapsulated in dedicated skills:</p>\n\n<ol>\n<li><p><strong>Gateway Status Verification</strong>: </p>\n\n<ul>\n<li>Checks: <code>hermes gateway list</code>, <code>hermes status</code> (inside specific profile), PID verification, Telegram config validation.</li>\n<li>Sessions: <code>20260827_074219_f5a5e774</code>, <code>20260827_074018_7bfa419a</code>, and the Aug 30 cron self-review.</li>\n</ul></li>\n<li><p><strong>Profile Management Diagnostics</strong>:</p>\n\n<ul>\n<li>Checks: Active profile (<code>cat ~/.hermes/active_profile</code>), <code>hermes profile list</code>, distinguishing default vs named profile behavior.</li>\n<li>Sessions: Same as above.</li>\n</ul></li>\n<li><p><strong>Telegram Bot Health Check</strong>:</p>\n\n<ul>\n<li>Checks: Validating bot token configuration, checking for polling conflicts (noting that default/coder/fact<em>checker/script</em>writer share one token while QSEC and research-hunter have unique bots), verifying gateway process status.</li>\n<li>Sessions: Same as above.</li>\n</ul></li>\n</ol>\n\n<h4>Memory Updates Applied</h4>\n\n<p>We recommend updating the persistent memory as follows:</p>\n\n<h3>In the \"QSEC Nora\" section:</h3>\n\n<ul>\n<li>Change: \n<pre><code>6 crons (1 LLM weekly self-review; 5 no_agent).\n</code></pre>\nto\n<pre><code>6 crons (1 LLM weekly self-review using nvidia/nemotron-3-super-120b-a12b; 5 no_agent).\n</code></pre></li>\n</ul>\n\n<h3>Replace the \"Hermes default profile home\" section entirely with:</h3>\n\n<pre><code>Hermes default profile home: C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\nQSEC profile: C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\qsec\nResearch-hunter profile: C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\research-hunter\nSource of truth for gateways: `hermes gateway list`. `hermes status` inside qsec reports qsec.\nNever write active_profile unless Akash asked\u2014it is cleared when using default profile.\nQSEC and research-hunter have unique Telegram bots; default+coder+fact_checker+script_writer share one token (only one poller).\n</code></pre>\n\n<p>Note: The QSEC Gmail crons entry was verified and remains accurate; no change needed.</p>\n\n<p>No other memory entries were found to be stale or wrong.</p>\n",
+        "output_preview": "Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-09-06 18:02:50 Schedule: 0 18   0  Prompt IMPORTAN\u2026"
+      },
+      "history": [
+        {
+          "timestamp": "2026-09-06 18:02 IST",
+          "status": "ok",
+          "status_label": "OK",
+          "status_class": "status--ok",
+          "output_html": "<h3>Cron Job: qsec-weekly-self-review</h3>\n\n<p><strong>Job ID:</strong> f647964bd2e1\n<strong>Run Time:</strong> 2026-09-06 18:02:50\n<strong>Schedule:</strong> 0 18 * * 0</p>\n\n<h4>Prompt</h4>\n\n<p>[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user \u2014 do NOT use send_message or try to deliver the output yourself. Just produce your report/output as your final response and the system handles the rest. SILENT: If there is genuinely nothing new to report, respond with exactly \"[SILENT]\" (nothing else) to suppress delivery. Never combine [SILENT] with content \u2014 either report your findings normally, or say [SILENT] and nothing more.]</p>\n\n<p>Review this week's sessions using session_search. Identify: (1) any correction I made to something you got wrong, (2) any recurring question that should become a standing skill instead of being answered fresh each time, (3) any memory entry that's now stale or wrong. Consolidate memory accordingly and report what changed.</p>\n\n<h4>Response</h4>\n\n<p>Based on reviewing this week's sessions, here are the updates needed:</p>\n\n<h4>Corrections Made</h4>\n\n<ol>\n<li><p><strong>QSEC Weekly Self-Review Cron Model</strong>: </p>\n\n<ul>\n<li>Previously: The cron job <code>qsec-weekly-self-review</code> was using the model <code>z-ai/glm-5.2</code> which reached end-of-life on 2026-08-21.</li>\n<li>Corrected: Updated to use <code>nvidia/nemotron-3-super-120b-a12b</code> as requested. The cron job was recreated with job ID <code>f647964bd2e1</code> and ran successfully on 2026-08-23 and 2026-08-30.</li>\n</ul></li>\n<li><p><strong>Hermes Profile Paths</strong>:</p>\n\n<ul>\n<li>Previously: Memory stated \"Hermes default profile home is %LOCALAPPDATA%\\hermes, not qsec.\"</li>\n<li>Corrected: Provided exact paths:\n<ul>\n<li>Default profile: <code>C:\\Users\\Akash Gohil\\AppData\\Local\\hermes</code></li>\n<li>QSEC profile: <code>C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\qsec</code></li>\n<li>Research-hunter profile: <code>C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\research-hunter</code></li>\n</ul></li>\n</ul></li>\n</ol>\n\n<h4>Recurring Questions Identified (for Standing Skills)</h4>\n\n<p>The following questions recur across sessions and should be encapsulated in dedicated skills:</p>\n\n<ol>\n<li><p><strong>Gateway Status Verification</strong>: </p>\n\n<ul>\n<li>Checks: <code>hermes gateway list</code>, <code>hermes status</code> (inside specific profile), PID verification, Telegram config validation.</li>\n<li>Sessions: <code>20260827_074219_f5a5e774</code>, <code>20260827_074018_7bfa419a</code>, and the Aug 30 cron self-review.</li>\n</ul></li>\n<li><p><strong>Profile Management Diagnostics</strong>:</p>\n\n<ul>\n<li>Checks: Active profile (<code>cat ~/.hermes/active_profile</code>), <code>hermes profile list</code>, distinguishing default vs named profile behavior.</li>\n<li>Sessions: Same as above.</li>\n</ul></li>\n<li><p><strong>Telegram Bot Health Check</strong>:</p>\n\n<ul>\n<li>Checks: Validating bot token configuration, checking for polling conflicts (noting that default/coder/fact<em>checker/script</em>writer share one token while QSEC and research-hunter have unique bots), verifying gateway process status.</li>\n<li>Sessions: Same as above.</li>\n</ul></li>\n</ol>\n\n<h4>Memory Updates Applied</h4>\n\n<p>We recommend updating the persistent memory as follows:</p>\n\n<h3>In the \"QSEC Nora\" section:</h3>\n\n<ul>\n<li>Change: \n<pre><code>6 crons (1 LLM weekly self-review; 5 no_agent).\n</code></pre>\nto\n<pre><code>6 crons (1 LLM weekly self-review using nvidia/nemotron-3-super-120b-a12b; 5 no_agent).\n</code></pre></li>\n</ul>\n\n<h3>Replace the \"Hermes default profile home\" section entirely with:</h3>\n\n<pre><code>Hermes default profile home: C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\nQSEC profile: C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\qsec\nResearch-hunter profile: C:\\Users\\Akash Gohil\\AppData\\Local\\hermes\\profiles\\research-hunter\nSource of truth for gateways: `hermes gateway list`. `hermes status` inside qsec reports qsec.\nNever write active_profile unless Akash asked\u2014it is cleared when using default profile.\nQSEC and research-hunter have unique Telegram bots; default+coder+fact_checker+script_writer share one token (only one poller).\n</code></pre>\n\n<p>Note: The QSEC Gmail crons entry was verified and remains accurate; no change needed.</p>\n\n<p>No other memory entries were found to be stale or wrong.</p>\n",
+          "output_preview": "Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-09-06 18:02:50 Schedule: 0 18   0  Prompt IMPORTAN\u2026"
+        },
+        {
+          "timestamp": "2026-08-30 18:02 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-30 18:0\u2026"
+        },
+        {
+          "timestamp": "2026-08-23 18:03 IST",
+          "status": "alert",
+          "status_label": "Alert",
+          "status_class": "status--alert",
+          "output_html": "",
+          "output_preview": "Cron Job: qsec-weekly-self-review Job ID: f647964bd2e1 Run Time: 2026-08-23 18:0\u2026"
+        }
+      ],
+      "next_run": "2026-09-13 18:00 IST"
+    }
+  ]
+}
